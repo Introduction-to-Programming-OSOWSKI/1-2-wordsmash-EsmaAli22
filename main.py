@@ -1,4 +1,6 @@
-def wordSmash(a, b):
-    return "icecream"
+def wordSmash(wordOne, wordTwo):
+    return wordOne + wordTwo
 
-print(wordSmash(ice, cream))
+print (wordSmash("Ice", "Cream"))
+print (wordSmash("Cat", "Dog"))
+print (wordSmash("Red", "Blue"))
